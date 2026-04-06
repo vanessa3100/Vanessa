@@ -44,3 +44,18 @@ This project is deployed on [Vercel](https://vercel.com). To deploy your own ins
 4. Enable **Web Analytics** in your project's Analytics tab on the Vercel Dashboard.
 
 For more details, see the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+
+## Project Structure
+
+```
+vanessa/
+├── app/
+│   ├── globals.css      # Global styles and Tailwind directives
+│   ├── layout.tsx       # Root layout with metadata and Analytics
+│   └── page.tsx         # Home page component
+├── next.config.ts       # Next.js configuration
+├── tailwind.config.ts   # Tailwind CSS configuration
+├── postcss.config.mjs   # PostCSS configuration
+├── tsconfig.json        # TypeScript configuration
+└── package.json         # Dependencies and scripts
+```
