@@ -50,9 +50,11 @@ For more details, see the [Next.js deployment documentation](https://nextjs.org/
 ```
 vanessa/
 ├── app/
+│   ├── resume/
+│   │   └── page.tsx     # Resume / CV page
 │   ├── globals.css      # Global styles and Tailwind directives
 │   ├── layout.tsx       # Root layout with metadata and Analytics
-│   └── page.tsx         # Home page component
+│   └── page.tsx         # Portfolio home page
 ├── next.config.ts       # Next.js configuration
 ├── tailwind.config.ts   # Tailwind CSS configuration
 ├── postcss.config.mjs   # PostCSS configuration
